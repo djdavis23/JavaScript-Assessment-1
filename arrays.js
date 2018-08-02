@@ -34,11 +34,13 @@ var tom = {
 	title: 'instructor'
 };
 
-contacts.push(jake);
-contacts.push(matt);
-contacts.push(tony);
-contacts.push(andrew);
-contacts.push(tom);
+// contacts.push(jake);
+// contacts.push(matt);
+// contacts.push(tony);
+// contacts.push(andrew);
+// contacts.push(tom);
+
+contacts.push(jake, matt, tony, andrew, tom);
 
 let contactList = "";
 

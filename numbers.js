@@ -3,7 +3,7 @@ var num10 = 10;
 var string8 = '8';
 var one = 1;
 
-console.log("Numbers Assessment #1:  " + (num10 + parseInt(string8, 10) + one));
+console.log("Numbers Assessment #1:  " + (num10 + parseInt(string8) + one));
 
 //2. write a loop that will log only numbers divisible by 3 between 20 - 100
 let answer = "";

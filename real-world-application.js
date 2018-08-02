@@ -69,8 +69,7 @@ var crayola1990 = [
 function lowerHyphen(strArray) {
 	for (let i = 0; i < strArray.length; i++) {
 		let myString = strArray[i];
-		myString = myString.replace(/ /g, "-");
-		myString = myString.toLowerCase();
+		myString = myString.replace(/ /g, "-").toLowerCase();
 		strArray[i] = myString;
 	}
 	return strArray;

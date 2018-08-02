@@ -6,7 +6,7 @@ function upperCase(str) {
   let workArr = str.split(' ');
   for (let i = 0; i < workArr.length; i++) {
     let word = workArr[i];
-    if (word.length == 1 && word == "i") {
+    if (word == "i") {
       workArr[i] = word.toUpperCase();
     }
   }
@@ -38,8 +38,7 @@ console.log("String assessment #2:  " + countA(jsHistory));
 var text = 'I scream, you scream, we all scream for icecream';
 
 function bigScream(str) {
-  let result = str.replace(/scream/g, "SCREAM");
-  return result;
+  return str.replace(/scream/g, "SCREAM");
 }
 
 console.log("String assessment #3:  " + bigScream(text));
